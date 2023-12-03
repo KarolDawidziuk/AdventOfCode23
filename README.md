@@ -40,7 +40,7 @@ npx ts-node src/dayN/Solution.ts
 
 | Day | Completed |
 | --- | ------ |
-| 1 | ❌ |
+| 1 | ✅ |
 | 2 | ❌ |
 | 3 | ❌ |
 | 4 | ❌ |
