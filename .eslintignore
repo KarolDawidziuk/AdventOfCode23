@@ -1,0 +1,5 @@
+# Dependencies and package managers
+node_modules/
+
+# Compilation output
+dist/
