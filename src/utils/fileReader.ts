@@ -65,7 +65,7 @@ export default class FileReader {
 	}
 
 	toStringArray(): Array<Array<string>> {
-		const arr: Array<Array<string>> = [ [] ];
+		const arr: Array<Array<string>> = [];
 
 		this._content.split( /\n/ ).forEach( item => {
 			if ( item === '' ) {
