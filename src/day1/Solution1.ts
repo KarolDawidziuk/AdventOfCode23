@@ -1,7 +1,6 @@
 import { FileReader, getDir, parseNumber } from '../utils'
 
 const path = getDir( __filename );
-
 const input = new FileReader( path, 'input.txt' )
 let result = 0;
 
