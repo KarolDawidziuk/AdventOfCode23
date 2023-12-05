@@ -1,5 +1,7 @@
 import { FileReader, getDir, parseNumber } from '../utils'
 
+type Colors = 'red' | 'green' | 'blue';
+
 const path = getDir( __filename );
 const input = new FileReader( path, 'input.txt' );
 
@@ -7,8 +9,7 @@ let result = 0;
 // The `g` flag ensures that `exec` will continue search after first match.
 const pattern = /(\d+)\s+([a-z]+)/g;
 
-type Colors = 'red' | 'green' | 'blue';
-
+// Very dirty solution, needs refactor.
 input.content.split( /\n/ ).forEach( ( line, gameId ) => {
 	let match;
 	let validGame = true;

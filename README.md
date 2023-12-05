@@ -1,4 +1,4 @@
-# AdventOfCode
+# AdventOfCode23
 
 ## Link to webpage
 
@@ -41,7 +41,7 @@ npx ts-node src/dayN/Solution.ts
 | Day | Completed |
 | --- | ------ |
 | 1 | ✅ |
-| 2 | ❌ |
+| 2 | ✅ |
 | 3 | ❌ |
 | 4 | ❌ |
 | 5 | ❌ |
